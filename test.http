@@ -1,0 +1,15 @@
+POST http://127.0.0.1:5000/advertisements
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Test",
+  "description": "TEST TEST",
+  "owner": "Vlad"
+}
+
+###
+GET http://127.0.0.1:5000/advertisements/1
+
+###
+DELETE http://127.0.0.1:5000/advertisements/1
